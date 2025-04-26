@@ -56,6 +56,7 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.material)
 
     // Compose ecosystem
     implementation(libs.activity.compose)
@@ -63,6 +64,7 @@ dependencies {
 
     // Lifecycle + ViewModel + LiveData + Compose VM support
     implementation(libs.bundles.lifecycle)
+    implementation(libs.runtime.livedata)
 
     // Room
     implementation(libs.room.runtime)
