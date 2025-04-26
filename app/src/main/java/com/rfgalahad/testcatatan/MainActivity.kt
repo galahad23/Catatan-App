@@ -20,7 +20,6 @@ import com.rfgalahad.testcatatan.data.local.Catatan
 import com.rfgalahad.testcatatan.ui.screen.BuatCatatanScreen
 import com.rfgalahad.testcatatan.ui.screen.ListCatatanScreen
 import com.rfgalahad.testcatatan.ui.screen.UbahCatatanScreen
-import com.rfgalahad.testcatatan.ui.theme.CatatanAppTheme
 import com.rfgalahad.testcatatan.viewmodel.CatatanViewModel
 
 class MainActivity : ComponentActivity() {
